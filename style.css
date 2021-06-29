@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.flexed {
+    display: flex;
+}
+
+.left-column {
+    flex: 2;
+    padding: 10px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.user-card {
+    border: 3px solid black;
+    padding: 30px;
+    justify-items: center;
+    margin-top: 25px;
+}
+
+.user-span {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like {
+    transition: all .2s ease-in-out;
+    font-size: 20px;
+    padding: .25em .5em;
+    box-shadow: 1px 3px 5px 1px rgb(105, 101, 101);
+    border-width: 2px;
+    background-color: goldenrod;
+    font-family: cursive;
+}
