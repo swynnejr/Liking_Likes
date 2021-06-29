@@ -9,28 +9,10 @@ body {
     font-weight: bold;
 }
 
-nav {
-    width: 80%;
-    background-color: black;
-    color: white;
-    margin: 0 auto;
-    padding: .5em 1em 1em 2em;
-}
-
-.nav-2 {
-    width: 80%;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    margin: 0 auto;
-    padding: .5em 1em .5em 2em;
-    text-align: center;
-    font-size: 30px;
-}
-
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 0px 10px 10px 0px;
+    padding: 10px;
 }
 
 .flexed {
@@ -39,34 +21,18 @@ nav {
 
 .left-column {
     flex: 2;
-    padding: 0px 10px 10px 0px;
-}
-
-.profile{
-    border: 3px solid black;
-    padding: 30px;
-    justify-items: center;
-}
-
-.profile img{
-    height: 165px;
-    text-align: center;
-}
-
-.profile p, .profile h2{
-    text-align: center;
+    padding: 10px;
 }
 
 .right-column {
-    flex: 3;
-    padding: 0px 10px 10px 0px;
-    align-items: flex-end;
+    flex: 1;
 }
 
 .user-card {
     border: 3px solid black;
     padding: 30px;
     justify-items: center;
+    margin-top: 25px;
 }
 
 .user-span {
